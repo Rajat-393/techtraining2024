@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Table_sub_cateogory__c</fullName>
+    <externalId>false</externalId>
+    <label>Table sub cateogory</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>For_tables__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Wood almirah</fullName>
+                <default>false</default>
+                <label>Wood almirah</label>
+            </value>
+            <value>
+                <fullName>Marble Almirah</fullName>
+                <default>false</default>
+                <label>Marble Almirah</label>
+            </value>
+            <value>
+                <fullName>RAck almirah</fullName>
+                <default>false</default>
+                <label>RAck almirah</label>
+            </value>
+            <value>
+                <fullName>Plastic chair</fullName>
+                <default>false</default>
+                <label>Plastic chair</label>
+            </value>
+            <value>
+                <fullName>Steel chair</fullName>
+                <default>false</default>
+                <label>Steel chair</label>
+            </value>
+            <value>
+                <fullName>Food table</fullName>
+                <default>false</default>
+                <label>Food table</label>
+            </value>
+            <value>
+                <fullName>Eat table</fullName>
+                <default>false</default>
+                <label>Eat table</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Almirah</controllingFieldValue>
+            <valueName>Wood almirah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Almirah</controllingFieldValue>
+            <valueName>Marble Almirah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Almirah</controllingFieldValue>
+            <valueName>RAck almirah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dining</controllingFieldValue>
+            <valueName>Food table</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dining</controllingFieldValue>
+            <valueName>Eat table</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chairs</controllingFieldValue>
+            <valueName>Plastic chair</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chairs</controllingFieldValue>
+            <valueName>Steel chair</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
