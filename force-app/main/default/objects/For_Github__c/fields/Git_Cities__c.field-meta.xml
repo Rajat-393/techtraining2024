@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Git_Cities__c</fullName>
+    <externalId>false</externalId>
+    <label>Git Cities</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Karachi</fullName>
+                <default>false</default>
+                <label>Karachi</label>
+            </value>
+            <value>
+                <fullName>Islamabad</fullName>
+                <default>false</default>
+                <label>Islamabad</label>
+            </value>
+            <value>
+                <fullName>Rahim Yaar Khan</fullName>
+                <default>false</default>
+                <label>Rahim Yaar Khan</label>
+            </value>
+            <value>
+                <fullName>London</fullName>
+                <default>false</default>
+                <label>London</label>
+            </value>
+            <value>
+                <fullName>Christchurch</fullName>
+                <default>false</default>
+                <label>Christchurch</label>
+            </value>
+            <value>
+                <fullName>Vancouver</fullName>
+                <default>false</default>
+                <label>Vancouver</label>
+            </value>
+            <value>
+                <fullName>Downtown</fullName>
+                <default>false</default>
+                <label>Downtown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
